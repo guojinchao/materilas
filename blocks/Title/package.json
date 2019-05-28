@@ -1,0 +1,49 @@
+{
+  "name": "@guojinchao/my-materilas-title",
+  "version": "1.0.0",
+  "description": "头部区块",
+  "files": [
+    "src/",
+    "build/",
+    "screenshot.png"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "ice",
+    "react",
+    "block"
+  ],
+  "scripts": {
+    "start": "ice dev",
+    "build": "ice build",
+    "screenshot": "ice-devtools screenshot",
+    "prepublishOnly": "npm run build && npm run screenshot"
+  },
+  "dependencies": {
+    "prop-types": "^15.5.8"
+  },
+  "devDependencies": {
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0"
+  },
+  "blockConfig": {
+    "name": "title",
+    "title": "头部",
+    "categories": [
+      "表格",
+      "表单",
+      "图表",
+      "列表",
+      "模态框",
+      "筛选",
+      "数据展示",
+      "信息展示",
+      "异常",
+      "欢迎页",
+      "视频",
+      "其他"
+    ]
+  },
+  "main": "index.js",
+  "author": ""
+}

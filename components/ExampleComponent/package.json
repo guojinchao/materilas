@@ -1,0 +1,43 @@
+{
+  "name": "@guojinchao/my-materilas-example-component",
+  "version": "1.0.0",
+  "description": "示例",
+  "files": [
+    "demo/",
+    "lib/",
+    "build/"
+  ],
+  "main": "lib/index.js",
+  "stylePath": "style.js",
+  "scripts": {
+    "start": "ice dev",
+    "build": "ice build",
+    "prepublishOnly": "npm run build"
+  },
+  "license": "MIT",
+  "keywords": [
+    "ice",
+    "react",
+    "component"
+  ],
+  "dependencies": {
+    "prop-types": "^15.5.8"
+  },
+  "devDependencies": {
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0"
+  },
+  "peerDependencies": {
+    "react": "^16.3.0"
+  },
+  "componentConfig": {
+    "name": "example-component",
+    "title": "demo component",
+    "categories": []
+  },
+  "homepage": "https://unpkg.com/my-materilas-example-component@1.0.0/build/index.html",
+  "directories": {
+    "lib": "lib"
+  },
+  "author": ""
+}

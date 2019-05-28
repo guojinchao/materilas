@@ -1,0 +1,36 @@
+{
+  "name": "@guojinchao/my-materilas-example-block",
+  "version": "1.0.0",
+  "description": "示例",
+  "files": [
+    "src/",
+    "build/",
+    "screenshot.png"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "ice",
+    "react",
+    "block"
+  ],
+  "scripts": {
+    "start": "ice dev",
+    "build": "ice build",
+    "screenshot": "ice-devtools screenshot",
+    "prepublishOnly": "npm run build && npm run screenshot"
+  },
+  "dependencies": {
+    "prop-types": "^15.5.8"
+  },
+  "devDependencies": {
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0"
+  },
+  "blockConfig": {
+    "name": "example-block",
+    "title": "demo block",
+    "categories": []
+  },
+  "main": "index.js",
+  "author": ""
+}

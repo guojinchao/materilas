@@ -1,0 +1,121 @@
+{
+  "name": "@guojinchao/my-materilas",
+  "blocks": [
+    {
+      "name": "example-block",
+      "title": "demo block",
+      "description": "示例",
+      "categories": [],
+      "source": {
+        "type": "npm",
+        "npm": "@guojinchao/my-materilas-example-block",
+        "version": "1.0.0",
+        "registry": "http://registry.npmjs.com",
+        "sourceCodeDirectory": "src/"
+      },
+      "dependencies": {
+        "prop-types": "^15.5.8"
+      },
+      "screenshots": [
+        null
+      ],
+      "customConfig": null,
+      "features": {
+        "useComponents": []
+      },
+      "publishTime": "2019-05-28T01:27:07.569Z",
+      "updateTime": "2019-05-28T01:27:16.000Z"
+    },
+    {
+      "name": "title",
+      "title": "头部",
+      "description": "头部区块",
+      "categories": [
+        "表格",
+        "表单",
+        "图表",
+        "列表",
+        "模态框",
+        "筛选",
+        "数据展示",
+        "信息展示",
+        "异常",
+        "欢迎页",
+        "视频",
+        "其他"
+      ],
+      "source": {
+        "type": "npm",
+        "npm": "@guojinchao/my-materilas-title",
+        "version": "1.0.0",
+        "registry": "http://registry.npmjs.com",
+        "sourceCodeDirectory": "src/"
+      },
+      "dependencies": {
+        "prop-types": "^15.5.8"
+      },
+      "screenshots": [
+        null
+      ],
+      "customConfig": null,
+      "features": {
+        "useComponents": []
+      },
+      "publishTime": "2019-05-28T01:33:33.430Z",
+      "updateTime": "2019-05-28T01:33:48.000Z"
+    }
+  ],
+  "components": [
+    {
+      "name": "example-component",
+      "title": "demo component",
+      "description": "示例",
+      "homepage": "https://unpkg.com/my-materilas-example-component@1.0.0/build/index.html",
+      "categories": [],
+      "source": {
+        "type": "npm",
+        "npm": "@guojinchao/my-materilas-example-component",
+        "version": "1.0.0",
+        "registry": "http://registry.npmjs.com"
+      },
+      "dependencies": {
+        "prop-types": "^15.5.8"
+      },
+      "screenshots": [
+        null
+      ],
+      "customConfig": null,
+      "publishTime": "2019-05-28T01:35:22.476Z",
+      "updateTime": "2019-05-28T01:35:43.000Z"
+    }
+  ],
+  "scaffolds": [
+    {
+      "name": "my-materilas-example-scaffold",
+      "title": "demo scaffold",
+      "description": "示例",
+      "categories": [
+        "基础模板"
+      ],
+      "source": {
+        "type": "npm",
+        "npm": "@guojinchao/my-materilas-example-scaffold",
+        "version": "1.0.0",
+        "registry": "http://registry.npmjs.com"
+      },
+      "dependencies": {
+        "@alifd/next": "^1.10.1",
+        "react": "^16.4.1",
+        "react-dom": "^16.4.1",
+        "react-router-dom": "^4.2.2"
+      },
+      "screenshots": [
+        null
+      ],
+      "builder": "ice-scripts",
+      "customConfig": null,
+      "publishTime": "2019-05-28T01:38:09.147Z",
+      "updateTime": "2019-05-28T01:38:21.000Z"
+    }
+  ]
+}
